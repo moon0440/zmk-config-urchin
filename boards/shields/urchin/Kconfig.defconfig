@@ -14,7 +14,7 @@ if SHIELD_URCHIN_LEFT || SHIELD_URCHIN_RIGHT
 config ZMK_SPLIT
     default y
 
-endifif SHIELD_URCHIN_LEFT
+endif
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
@@ -22,12 +22,3 @@ config ZMK_KEYBOARD_NAME
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
-
-endif
-
-if SHIELD_URCHIN_LEFT || SHIELD_URCHIN_RIGHT
-
-config ZMK_SPLIT
-    default y
-
-endif
